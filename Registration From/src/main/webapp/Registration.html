@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body bgcolor="sky blue">
+ <h1>Registration Form</h1>
+ 
+      <form method="get" action="RegisterServlet">
+      <label>Username</label>
+         <input type ="text" name="userName" required/>
+         <br><br>
+          
+          
+      <label>Password</label>
+         <input type ="password" name="password" required/>
+         <br><br>
+          
+          
+      <label>Usermobile</label>
+         <input type ="number" name="userMobile" required/>
+         <br><br>
+          
+          
+      <label>Useremail</label>
+         <input type ="email" name="userEmail" required/>
+         <br><br>
+         
+          <label>Gender</label>
+         <input type ="radio" name="gender "  value="MALE"/>MALE
+          <input type ="radio" name="gender "  value="FEMALE"/>FEMALE
+          <br><br>
+         
+         <label>SelectDOB</label>
+         <input type ="date" name="DOB" required/>
+         <br><br>
+         
+         <label>Qualification</label>
+         
+         
+         <input type ="checkbox" name="Qualification" />BSC
+         <input type ="checkbox" name="Qualification" />MCA
+         <input type ="checkbox" name="Qualification" />BCOM
+         <input type ="checkbox" name="Qualification" />BTECH
+         <input type ="checkbox" name="Qualification" />MTECH
+         <br><br>
+         
+         <label>Country</label>
+         <select name="Country">
+    <option>INDIA</option>
+    <option>USA</option>
+    <option>CANADA</option>
+    <option>RUSSIA</option>
+    <option>AUSTRALIA</option>
+    
+   </select>
+         <br><br>
+         
+                  
+         <label>Language</label>
+         <select name="Languages" size="3" multiple>
+    <option>TELUGU</option>
+    <option>HINDI</option>
+    <option>ENGLISH</option>
+    <option>TAMIL</option>
+    <option>KANNADA</option>
+    
+   </select>
+         <br><br>
+         <label>COMMENTS </label>
+         <textarea name="COMMENTS" rows="5" cols="25"></textarea>
+         <br><br>
+ 
+
+         
+          <input type="submit" value="REGISTER"/>
+      </form>
+</body>
+</html>

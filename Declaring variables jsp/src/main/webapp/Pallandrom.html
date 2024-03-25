@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PalindromeChecker</title>
+</head>
+<body>
+<script>
+function isPalindrome(number) {
+    const originalNumber = number;
+    const reversedNumber = parseInt(number.toString().split('').reverse().join(''));
+
+    return originalNumber === reversedNumber;
+}
+
+const numberToCheck = prompt('Enter a number to check for palindrome:');
+if (numberToCheck !== null) {
+    if (isPalindrome(Number(numberToCheck))){
+        alert(" is a Palindrome.");
+}
+    else
+    	{
+        alert("is not a palindrome.");
+    }
+}
+
+</script>
+</body>
+</html>

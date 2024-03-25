@@ -1,0 +1,34 @@
+h1{
+  color: purple;
+  text-align: right;
+  text-decoration: aquamarine;
+  text-decoration:underline;
+        font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  
+  
+       }
+       
+       .mystyle{
+  color: maroon;
+  text-align: right;
+  text-decoration: aquamarine;
+  text-decoration:line-through;
+        font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  
+  
+       }
+       #design{
+  color: olive;
+  text-align: right;
+  text-decoration: aquamarine;
+  text-decoration:underline;
+        font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: inherit;
+  
+  
+       }

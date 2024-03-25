@@ -1,0 +1,22 @@
+@charset "UTF-8";
+h1,h3{
+  color: purple;
+  text-align: right;
+  text-decoration: aquamarine;
+  text-decoration:underline;
+        font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  
+  
+       }
+       
+      p{
+    color:lightcoral;
+  text-align: center;
+  text-decoration:royalblue;
+  text-decoration:overline;
+        font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+   } 

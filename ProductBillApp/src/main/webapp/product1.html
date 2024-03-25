@@ -1,0 +1,30 @@
+<html>
+<head>
+<title> Product BillApp </title>
+</head>
+<body bgcolor ="pink">
+	<h1>Product Bill Calculation</h1>
+<from method ="get" action="./ProductServlet">
+
+<label> product id</label>
+	<input type ="number"name ="ProID" required/>
+<br><br>
+
+<label>product name</label>
+<input type ="text" name ="ProName" required/>
+<br><br>
+
+
+<label>product price</label>
+<input type ="number"name ="ProPrice" required/>
+<br><br>
+
+<label>product Quantity</label>
+<input type ="number"name ="ProQuantity"  min ="2" >
+place holder ="enter quantity" required/>
+<br> <br>
+
+<input type ="submit" value ="productInvoice"/>
+</from>
+</body>
+</html>

@@ -1,0 +1,83 @@
+
+<html>
+<head>
+<title>Add 	Product</title>
+<!-- BootStrap CDN link to Get the Support of Boot -->
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!--  This is a java script validation code Location -->
+<script>src="Addproduct.js"</script>
+
+</head>
+<body>
+
+<div class="container mt-5 text-center">
+<h2 class="text-center front-italic mb-1"> save product Data...</h2>
+<from method="post"action="./AddproductServlet"
+enctype="multipart/form-data" onsubmit="return
+validateForm()">
+
+<div class="form-group">
+<label class="font-italic font-weight-bold"
+for="proId">Product ID:</label>
+<input type="text" class="form-control-sm"id="proId"
+name="proId" required>
+</div>
+
+<div class="form-group">
+<label class="font-italic font-weight-bold"
+for="proId">Product Name:</label>
+<input type="text" class="form-control-sm"id="proName"
+name="proName" required>
+</div>
+
+<div class="form-group">
+<label class="font-italic font-weight-bold"
+for="proId">Product Price:</label>
+<input type="number" class="form-control-sm"id="proPrice"
+name="proPrice" required>
+</div>
+
+<div class="form-group">
+<label class="font-italic font-weight-bold"
+for="proId">Product Brand:</label>
+<input type="text" class="form-control-sm"id="proBrand"
+name="proBrand" required>
+</div>
+
+<div class="form-group">
+                  <lable class="font-italic font-weight-bold"
+                  for="Made In">Made IN:</lable>
+                  <input type="text" class="form-control-sm" id="MadeIn"  name="MadeIn" required>
+               </div>   
+               
+               
+                 <div class="form-group">
+                  <lable class="font-italic font-weight-bold"
+                  for="Mfg Date">Mfg Date:</lable>
+                  <input type="Date" class="form-control-sm" id="Mfg Date"  name="Mfg Date" required>
+               </div>   
+               
+               
+               <div class="form-group">
+                  <lable class="font-italic font-weight-bold"
+                  for="Exp Date">Exp Date:</lable>
+                  <input type="Date" class="form-control-sm" id="Exp Date"  name="Exp Date" required>
+               </div>  
+               
+               
+               <div class="form-group">
+                  <lable class="font-italic font-weight-bold"
+                  for="proImage">Product Image:</lable>
+                  <input type="file" class="form-control-file-sm" id="proImage"  name="proImage"  accept="image/*" required>
+               </div>  
+               
+               
+               <div class="form-group">
+                 
+                  <input type="submit" class="btn btn-success" value="save product"/>
+                  <a herf="productList.jsp" class="btn btn-primary">List of Products</a>
+               </div>
+
+</body>
+</html>
